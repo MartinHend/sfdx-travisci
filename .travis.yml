@@ -4,8 +4,7 @@ cache: false
 env:
 - URL=https://developer.salesforce.com/media/salesforce-cli/sfdx-linux-amd64.tar.xz
 before_install:
-- openssl aes-256-cbc -K $encrypted_79a2f6093848_key -iv $encrypted_79a2f6093848_iv
-  -in assets/server.key.enc -out assets/server.key -d
+
 - export CONSUMER_KEY=3MVG9wEVwV0C9ejBlkF1CL6r5kEcGnGS0NiyVs8rfxCFJdt3WojzQZ38Df7sooXGbgQ6e3pZzdeICKDzeqhjt
 - export JWT_KEY_FILE=C:\OpenSSL\bin\server.key
 - export HUB_USERNAME=martin.hendriks@cunning-wolf-2b200z.com- export SFDX_AUTOUPDATE_DISABLE=false
